@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "img": "01",
+        "name": "ALEXANDRIA",
+        "evaluation": 3,
+        "duration": 10,
+        "price": 560,
+        "url" : "#",
+        "tag" : "New",
+        "agentLogo" : "agent-1.jpg"
+    },
+    {
+        "id": 2,
+        "img": "02",
+        "name": "LUXOR",
+        "evaluation": 5,
+        "duration": 10,
+        "price": 1000,
+        "url" : "#",
+        "tag" : "Hot",
+        "agentLogo" : "agent-2.jpg"
+    },
+    {
+        "id": 3,
+        "img": "03",
+        "name": "MARSA ALAM",
+        "evaluation": 3,
+        "duration": 10,
+        "price": 460,
+        "url" : "#",
+        "tag" : "Cheap",
+        "agentLogo" : "agent-3.jpg"
+    },
+    {
+        "id": 4,
+        "img": "04",
+        "name": "NILE RIVER",
+        "evaluation": 3,
+        "duration": 10,
+        "price": 2060,
+        "url" : "#",
+        "tag" : "Attractive",
+        "agentLogo" : "agent-4.jpg"
+    },
+    {
+        "id": 5,
+        "img": "05",
+        "name": "PYRAMIDS",
+        "evaluation": 3,
+        "duration": 10,
+        "price": 860,
+        "url" : "#",
+        "tag" : "Last-Minute",
+        "agentLogo" : "agent-5.jpg"
+    },
+    {
+        "id": 6,
+        "img": "06",
+        "name": "Sharm-El-Sheikh",
+        "evaluation": 3,
+        "duration": 10,
+        "price": 1060,
+        "url" : "#",
+        "tag" : "Discount",
+        "agentLogo" : "agent-6.jpg"
+    }
+]

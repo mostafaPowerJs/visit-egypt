@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Visit Egypt</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/Logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--style CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Flaticons CSS-->
+    <link href="font/flaticon.css" rel="stylesheet" type="text/css">
+    <!--Plugin CSS-->
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+    <!--custom slider style-->
+    <link rel="stylesheet" href="css/slider.css">
+    <!--my custom css (dev)-->
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader" class="d-none">
+        <div id="status"></div>
+    </div>
+    <!-- Preloader Ends -->
+
+    <!-- Header -->
+    <header>
+
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Navigation Bar -->
+    <div class="navigation">
+
+    </div>
+    <!-- Navigation Bar Ends -->
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="main-index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Packages</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+
+
+    <!-- Destinations -->
+    <section class="destinations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row" id="packages">
+                       
+                    </div>
+                </div>
+                <div id="sidebar-sticky" class="col-lg-4">
+                    <aside class="detail-sidebar sidebar-wrapper">
+                        <div class="sidebar-item sidebar-item-dark">
+                            
+                            <form>
+                                <div class="row">
+                                    <div class="form-group col-lg-12">
+                                        <input type="text" class="form-control" id="place-name" placeholder="Enter the place you want to search">
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="detail-title">
+                                <h3>Price Range</h3>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="range-slider">
+                                    <div data-min="0" data-max="4000" data-unit="$" data-min-name="min_price" data-max-name="max_price" class="range-slider-ui ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                                        <span class="min-value">0 $</span>
+                                        <span class="max-value">4000 $</span>
+                                        <div class="ui-slider-range ui-widget-header ui-corner-all whole" style="left: 0%; width: 100%;"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="detail-title">
+                                <h3>Rating</h3>
+                            </div>
+                            <div class="sidebar-content clearfix">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" checked /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                
+                                </fieldset>
+                            </div>
+                            
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="detail-title">
+                                <h3>Search</h3>
+                            </div>
+                            <div>
+                                <div class="comment-btn">
+                                    <button type="button" class="btn-blue btn-red" id="search">Search Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="detail-title">
+                                <p>Favourite</p>
+                            </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div class="detail-title">
+                                <h3>Hot Offers</h3>
+                            </div>
+                            <div>
+                                <div class="sale-item">
+                                    <div class="sale-image">
+                                        <img src="images/packages/07.jpg" alt="Image">
+                                    </div>
+                                    <div class="sale-content">
+                                        <div class="sale-review">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <h3><a href="#">Aswan</a></h3>
+                                        <p><i class="flaticon-time"></i> 5 days</p>
+                                        <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    </div>
+                                    <div class="sale-tag">
+                                        <span class="old-price">$1449</span>
+                                        <span class="new-price"> $900</span>
+                                    </div>
+                                    <div class="sale-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <div>
+                                <div class="sale-item">
+                                    <div class="sale-image">
+                                        <img src="images/packages/07.jpg" alt="Image">
+                                    </div>
+                                    <div class="sale-content">
+                                        <div class="sale-review">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                        <h3><a href="#">Aswan</a></h3>
+                                        <p><i class="flaticon-time"></i> 5 days</p>
+                                        <a href="tour-detail.html" class="btn-blue btn-red">View More</a>
+                                    </div>
+                                    <div class="sale-tag">
+                                        <span class="old-price">$1449</span>
+                                        <span class="new-price"> $900</span>
+                                    </div>
+                                    <div class="sale-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Destination Ends -->
+
+
+    <!-- Footer -->
+    <footer>
+        
+    </footer>
+    <!-- Footer Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- *Scripts* -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+
+    <!--sccript for main elements (nav-bar)-->
+    <script src="js/mainElements.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/main-1.js"></script>
+
+    <script src="js/custom-swiper2.js"></script>
+
+
+    <!--api weatherstack-->
+    <script src="js/weather.js"></script>
+
+
+    <!--the script for this page only-->
+    <script type="module" src="js/packages.js"></script>
+
+
+    <script type="module" src="js/preloader.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
+
+    <script>
+        // Created by webdevpuneet.com
+        (function ($) {
+            //Function to animate slider captions
+            function doAnimations(elems) {
+                //Cache the animationend event in a variable
+                var animEndEv = "webkitAnimationEnd animationend";
+                elems.each(function () {
+                    var $this = $(this),
+                        $animationType = $this.data("animation");
+                    $this.addClass($animationType).one(animEndEv, function () {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+            //Variables on page load
+            var $myCarousel = $("#carouselExampleIndicators"),
+                $firstAnimatingElems = $myCarousel
+                    .find(".carousel-item:first")
+                    .find("[data-animation ^= 'animated']");
+            //Initialize carousel
+            $myCarousel.carousel();
+            //Animate captions in first slide on page load
+            doAnimations($firstAnimatingElems);
+            //Other slides to be animated on carousel slide event
+            $myCarousel.on("slide.bs.carousel", function (e) {
+                var $animatingElems = $(e.relatedTarget).find(
+                    "[data-animation ^= 'animated']"
+                );
+                doAnimations($animatingElems);
+            });
+        })(jQuery);
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
